@@ -195,5 +195,5 @@ machine host login username password my_youtube_password
 where host is the name of extractor (eg. youtube, twitch). Multiple accounts of different hosts can be added each separated by a new line
 
 
-### For any kind of help ask in [Telegram Group](https://t.me/linux_repo):
+### For any kind of help ask in [Telegram Group](https://t.me/linux_repo): 
 <a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
