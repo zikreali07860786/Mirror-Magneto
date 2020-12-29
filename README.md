@@ -49,12 +49,6 @@ This project is heavily inspired from @out386's telegram bot which is written in
 - Uploading To Team Drives
 - Index Link support
 
-
-## New ChangeLog by [@AbirHasan2005](https://github.com/AbirHasan2005):
-- New code in Line 14 of requirements.txt file.
-	- As you know one of the most popular YouTube video downloading software, **youtube-dl**, was removed from GitHub, according to a release from the **Recording Industry Association of America (RIAA)**.
-	- New code working well.
-
 - Improvements in Dockerfile.
     - Before Deploy edit Dockerfile. To know what you have to edit ask in Telegram Group: [Linux Repositories](https://t.me/linux_repo)
 
@@ -87,9 +81,9 @@ You can also change the commands. For help ask in [Telegram Group](https://t.me/
 
 # How to deploy?
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mikiadarsh25/magneto-python-aria-1/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/AbirHasan2005/Mirror-Magneto/tree/main)
 
-- Configs [Here](https://github.com/AbirHasan2005/magneto-python-aria/tree/main#configs)
+- Configs [Here](https://github.com/AbirHasan2005/Mirror-Magneto/tree/main#configs)
 - For any help ask in [Telegram Group](https://t.me/linux_repo):
 - <a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
@@ -136,7 +130,7 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 Note: You can limit maximum concurrent downloads by changing the value of MAX_CONCURRENT_DOWNLOADS in aria.sh. By default, it's set to 2
 
 ## Auto Authorize Chat or User:
-Add Group IDs or User IDs on [authorized_chats.txt](https://github.com/AbirHasan2005/magneto-python-aria)
+Add Group IDs or User IDs on [authorized_chats.txt](https://github.com/AbirHasan2005/Mirror-Magneto/blob/main/authorized_chats.txt)
 - One ID Per Line
 - That could be Group ID or User ID
 
