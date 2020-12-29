@@ -10,8 +10,8 @@
 
 ## Credits:
 - First of all, full credit goes to [Shivam Jha aka lzzy12](https://github.com/lzzy12) He build up this bot from scratch.
-- Then a huge thanks to [Sreeraj V R](https://github.com/SVR666) You can checkout his [repo here](https://github.com/SVR666/LoaderX-Bot)
-- Features added from [Sreeraj V R's](https://github.com/SVR666) repo -
+- Then a huge thanks to [Sreeraj V R](https://github.com/SVR666)
+- Modified by [@AbirHasan2005](https://github.com/AbirHasan2005).
 ```
 1. Added Inline Buttons
 2. Added /del command to delete files from drive
@@ -31,7 +31,7 @@ This is a telegram bot writen in python for mirroring files on the internet to o
 
 
 # Inspiration 
-This project is heavily inspired from @out386's telegram bot which is written in JS.
+This project is heavily inspired from @out386's Telegram bot which is written in JS.
 
 
 # Features supported:
@@ -75,13 +75,14 @@ stats - bot usage stats
 help - get detailed help
 ping - ping bot
 log - bot log [owner only]
+restart - restart bot [owner only]
 ```
 You can also change the commands. For help ask in [Telegram Group](https://t.me/linux_repo).
 
 
 # How to deploy?
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/AbirHasan2005/Mirror-Magneto/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 - Configs [Here](https://github.com/AbirHasan2005/Mirror-Magneto/tree/main#configs)
 - For any help ask in [Telegram Group](https://t.me/linux_repo):
@@ -152,10 +153,13 @@ pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py
 ```
 - Or Run in [Repl.it](https://repl.it/@linuxrepo/tokenpickle)
+	- If you run in [repl.it](https://repl.it/@linuxrepo/tokenpickle) than you have to get direct download link of `credentials.json` file.
+	- You can get direct download link from GitHub :)
+	- If don't know how, ask in [Support Group](https://t.me/linux_repo).
 
 ## Using service accounts for uploading to avoid user rate limit
-For Service Account to work, you must set **USE_SERVICE_ACCOUNTS**="True" in config file or environment variables
-Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts
+For Service Account to work, you must set **USE_SERVICE_ACCOUNTS**="True" in config file or in environment variables.
+Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts.
 ## Generating service accounts
 Step 1. Generate service accounts [What is service account](https://cloud.google.com/iam/docs/service-accounts)
 ---------------------------------
@@ -183,7 +187,7 @@ python3 gen_sa_accounts.py --download-keys project_id
 python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 ```
 
-## Youtube-dl authentication using `.netrc` file
+#### Youtube-dl authentication using `.netrc` file
 For using your premium accounts in youtube-dl, edit the netrc file (in the root directory of this repository) according to following format:
 ```
 machine host login username password my_youtube_password
