@@ -12,7 +12,6 @@ RUN apt-get -qq update && \
     apt-get purge -y software-properties-common
 
 RUN wget https://raw.githubusercontent.com/AbirHasan2005/Mirror-Magneto/main/authorized_chats.txt
-RUN wget https://raw.githubusercontent.com/AbirHasan2005/Mirror-Magneto/main/token.pickle
 COPY requirements.txt .
 COPY extract /usr/local/bin
 RUN chmod +x /usr/local/bin/extract
