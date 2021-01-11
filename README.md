@@ -157,6 +157,11 @@ python3 generate_drive_token.py
 	- If you run in [repl.it](https://repl.it/@linuxrepo/tokenpickle) than you have to get direct download link of `credentials.json` file.
 	- You can get direct download link from GitHub :)
 	- If don't know how, ask in [Support Group](https://t.me/linux_repo).
+- Or use [@TokenPickle_Bot](https://t.me/TokenPickle_Bot)
+	- If using this bot than send `credentials.json` file to it,
+	- Authorize with Auth Code,
+	- And Get your `token.pickle` file!
+	- Easy :)
 
 ## Using service accounts for uploading to avoid user rate limit
 For Service Account to work, you must set **USE_SERVICE_ACCOUNTS**="True" in config file or in environment variables.
